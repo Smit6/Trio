@@ -1,3 +1,10 @@
+/* file name : main.cpp
+ * date modified : 2/20/2019
+ * brief : program to sort 3 numbers in descending order
+ * author : Kevin buffardi
+ * editor : Smitkumar Contractor
+ */
+
 // includs
 #include <iostream>
 
