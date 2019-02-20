@@ -10,3 +10,6 @@ To run the program do the following in your command line interface prompt ($):
 $make
 $./a.out
 ```
+# Buid status
+
+[![Build Status](https://travis-ci.org/Smit6/Trio.svg?branch=master)](https://travis-ci.org/Smit6/Trio)
