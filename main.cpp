@@ -57,9 +57,9 @@ void sortDescending(int& first, int& second, int& third)
  * brief : function swaps two ints
  * return : void
  */
-void swap(int &first, int &second)
+void swap(int &a, int &b)
 {
-  int temp = first;
-  first = second;
-  second = temp;
+  int temp = a;
+  a = b;
+  b = temp;
 }
