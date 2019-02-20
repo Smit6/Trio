@@ -1,11 +1,16 @@
+// includs
 #include <iostream>
+
+// using statements
 using std::cout;
 using std::cin;
 using std::endl;
 
-void sortDescending(int,int,int);
+// function declarations
+void sortDescending(int&,int&,int&);
 void swap(int&,int&);
 
+// main
 int main()
 {
   int numA, numB, numC;
@@ -19,7 +24,12 @@ int main()
   return 0;
 }
 
-void sortDescending(int first, int second, int third)
+/* function name : sortDescending
+ * function args : first, second, third (all ints)
+ * brief : this function sorts three numbers from highest to lowest
+ * return : void
+ */
+void sortDescending(int& first, int& second, int& third)
 {
   if( first < third )
   {
@@ -35,6 +45,11 @@ void sortDescending(int first, int second, int third)
   }
 }
 
+/* function name : swap
+ * function args : first, second (both ints)
+ * brief : function swaps two ints
+ * return : void
+ */
 void swap(int &first, int &second)
 {
   int temp = first;
